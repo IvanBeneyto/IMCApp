@@ -143,6 +143,7 @@
             android:gravity="center"
             >
             <TextView
+                android:paddingTop="10sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Peso"
@@ -150,6 +151,7 @@
                 android:textAllCaps="true"
                 />
             <TextView
+                android:paddingTop="3sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="28sp"
@@ -202,6 +204,7 @@
             android:orientation="vertical"
             >
             <TextView
+                android:paddingTop="10sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Edad"
@@ -209,6 +212,7 @@
                 android:textAllCaps="true"
                 />
             <TextView
+                android:paddingTop="3sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="28sp"
@@ -244,6 +248,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.appcompat.widget.AppCompatButton
+
         android:layout_width="match_parent"
         android:layout_height="80dp"
         app:layout_constraintTop_toBottomOf="@id/viewPeso"
