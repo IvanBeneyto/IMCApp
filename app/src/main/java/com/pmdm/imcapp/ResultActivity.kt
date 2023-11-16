@@ -25,6 +25,7 @@ class ResultActivity : AppCompatActivity() {
 
         tvresult.text = initialResult.toString()
         tvtextview1.text = initialTitle
+        tvdesc.text = initialTextResult
     }
 
     private fun initListeners() {
